@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>idc - is marcos doing college?</title>
+
+    <style>
+      * {
+        line-height: 1.5;
+        font-family: Helvetica, Verdana;
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        text-d
+      }
+
+      body {
+         min-height: 100vh;
+         min-width: 100vw;
+      }
+
+      main {
+        margin: auto;
+        background-color: beige;
+        width: 95%;
+        min-height: 100vh;
+        vertical-align: middle;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5%;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      .text--green {
+        color: green;
+      }
+
+      .text--big {
+        font-size: 3rem;
+      }
+
+      .text--left-margin {
+         margin-left: 85px;
+       }
+
+      .text--red {
+        color: red;
+      }
+
+      .text--muted {
+        text-decoration: line-through;
+        opacity: 0.2;
+        font-size: 2rem;
+      }
+
+      @media screen and (max-width: 425px) {
+        main {
+          width: 90%;
+          padding-right: 5%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="text--green text--big">Marcos is doing college! :)</h1>
+      <h2 class="text--red text--muted">Marcos is not doing college :(</h2>
+
+      <h4>Actual Major</h4>
+      <p class="text--left-margin">
+        <b>Information Systems</b> @ Universidade Federal do Pará
+      </p>
+
+      <h4>History</h4>
+      <ul class="text--left-margin">
+        <li><b>Computer Engineering</b> @ Universidade Federal do Pará. <em>Gived up</em> :c</li>
+      </ul>
+    </main>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115754396-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115754396-1');
+    </script>
+  </body>
+</html>
